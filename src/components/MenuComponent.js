@@ -1,7 +1,8 @@
 import React from "react";
 import { Card, CardImg, CardImgOverlay, Breadcrumb, BreadcrumbItem, CardTitle } from 'reactstrap';
 import { Link } from 'react-router-dom';
-function RenderMenuItem({dish, onClick}) {
+
+function RenderMenuItem({dish}) {
     return (
         <Card>
             <Link to={`/menu/${dish.id}`}>
